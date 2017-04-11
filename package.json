@@ -1,0 +1,11 @@
+{
+  "name": "jaws-ugjp",
+  "version": "0.1.0",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "uswds": "^1.0.0"
+  }
+}

@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang:   ja
+title: JAWS-UG
+email: jawsug@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  - AWS User Group - Japanは、Amazon Web Servicesの利用促進や情報交換のためのユーザーグループです。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github:   jaws-ug
+
+# og tag
+author: jawsug
+twitter:
+  username: jawsdays
+facebook:
+  username: jawsdays
+#   app_id: 1234
+#   publisher: 1234
+#   admins: 1234
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/ogp-default-image.png
+
+# Google services
+google_site_verification: aaa
+google_analytics: UA—XXXXXXXX-X
+
+# favicon
+favicon:
+  size32x32:        /assets/images/cropped-favicon-1-32x32.png
+  size192x192:      /assets/images/cropped-favicon-1-192x192.png
+  apple-touch-icon: /assets/images/cropped-favicon-1-180x180.png
+  msapplication:    /assets/images/cropped-favicon-1-270x270.png
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+#  - jekyll-feed
+#  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - vendor

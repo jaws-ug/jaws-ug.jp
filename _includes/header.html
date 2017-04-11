@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+
+	{% seo title=false %}
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/font-awesome-4.7.0/css/font-awesome.min.css" />
+{% if page.layout == 'calendar' or page.layout == 'home' %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/fullcalendar/fullcalendar.min.css" />
+{% endif %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+
+	<link rel="icon" href="{{ site.favicon.size32x32 }}" sizes="32x32" />
+	<link rel="icon" href="{{ site.favicon.size192x192 }}" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="{{ site.favicon.apple-touch-icon }}" />
+	<meta name="msapplication-TileImage" content="{{ site.favicon.msapplication }}" />
+
+	{% if jekyll.environment == 'production' and site.google_analytics %}{% include google-analytics.html %}{% endif %}
+</head>
+
+<body>
+	<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+	<header id="masthead" class="usa-header usa-header-basic" role="banner">
+		<div class="usa-nav-container">
+			<div class="usa-navbar">
+				<button class="usa-menu-btn">Menu</button>
+				<div class="usa-logo" id="logo">
+					<a href="{{ site.baseurl }}/" title="Home" aria-label="Home"><img src="{{ site.baseurl }}/assets/images/site-logo.png"
+ srcset="{{ site.baseurl }}/assets/images/site-logo.png 1x,
+         {{ site.baseurl }}/assets/images/site-logo@2x.png 2x"
+ alt="{{ site.title | escape }}"></a>
+				</div>
+			</div>
+			<nav role="navigation" class="usa-nav">
+				<button class="usa-nav-close">
+				<img src="{{ site.baseurl }}/assets/uswds-1.0.0/img/close.svg" alt="close">
+				</button>
+				<ul class="usa-nav-primary usa-accordion">
+					<li><a class="usa-nav-link" href="{{ site.baseurl }}/about-us/"><span>JAWS-UGとは</span></a></li>
+					<li><a class="usa-nav-link" href="{{ site.baseurl }}/calendar/"><span>開催予定のイベント</span></a></li>
+					<li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="side-nav-1"><span>参加者の方へ</span></button>
+						<ul id="side-nav-1" class="usa-nav-submenu">
+							<li><a href="#">参加する方法/ルールとマナー</a></li>
+							<li><a href="#">勉強会グループ一覧</a></li>
+						</ul>
+					</li>
+					<li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2"><span>運営側の方へ</span></button>
+						<ul id="sidenav-2" class="usa-nav-submenu">
+							<li><a href="#">支部とは？</a></li>
+							<li><a href="#">新しい支部をつくりたい/支部代表になりたい場合</a></li>
+							<li><a href="#">支部の運営に参加したい場合</a></li>
+							<li><a href="#">スピーカーになりたい場合</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="usa-overlay"></div>
+	<main id="main-content" role="main">
