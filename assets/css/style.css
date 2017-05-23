@@ -3430,5 +3430,16 @@ input.usa-input-medium {
   text-shadow: none;
   box-shadow: none; }
 
+button.fc-button {
+  width: auto; }
+
+button.fc-state-default.fc-corner-left.fc-prev-button {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+
+.fc-state-default.fc-corner-right.fc-next-button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+
 .entry-title {
   margin-top: 0; }

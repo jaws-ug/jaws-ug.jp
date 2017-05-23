@@ -67,6 +67,8 @@ style.css
 		margin: 0;
 	}
 }
+.fc-view > table {
+}
 .loading {
 	text-align: center;
 	color: $color-gray-light;
@@ -88,8 +90,16 @@ style.css
 	text-shadow: none;
 	box-shadow: none;
 }
-.fc-today-button {
-	
+button.fc-button {
+	width: auto;
+}
+button.fc-state-default.fc-corner-left.fc-prev-button {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.fc-state-default.fc-corner-right.fc-next-button {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
 }
 
 // page
