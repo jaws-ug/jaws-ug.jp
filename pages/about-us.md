@@ -2,6 +2,7 @@
 title: JAWS-UGとは
 permalink: /about-us/
 layout: page
+description: JAWS-UGとは、AWS (Amazon Web Services) が提供するクラウドコンピューティングを利用する人々の集まり（コミュニティ）です。
 ---
 
 JAWS-UGとは、AWS (Amazon Web Services) が提供するクラウドコンピューティングを利用する人々の集まり（コミュニティ）です。  
@@ -39,3 +40,8 @@ AWSのユーザーグループは世界中にあり、国や地域を超えた�
 * [Facebook](https://www.facebook.com/{{ site.facebook.username| escape }})
 * [Twitter](https://twitter.com/{{ site.twitter.username| escape }})
 * ハッシュタグ **#jawsug**
+
+## ロゴについて
+ロゴについてはこちらを参照ください
+* [https://github.com/jaws-ug/logo](https://github.com/jaws-ug/logo)
+* [https://github.com/jaws-ug/logo/tree/master/base](https://github.com/jaws-ug/logo/tree/master/base)
