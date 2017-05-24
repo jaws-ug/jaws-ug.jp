@@ -1,0 +1,15 @@
+{% include header.html %}
+<div class="usa-grid usa-section usa-content usa-layout-docs">
+	<article class="usa-width-one-whole usa-layout-docs-main_content">
+		<header class="entry-header">
+			<h1 class="entry-title">{{ page.title }}</h1>
+		</header>
+		{{ content }}
+		<h2>エリア別</h2>
+		{% include list.html list=site.data.area %}
+
+		<h2>目的別</h2>
+		{% include list.html list=site.data.list %}
+	</article>
+</div>
+{% include footer.html %}

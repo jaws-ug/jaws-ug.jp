@@ -10,20 +10,20 @@
  				<nav class="usa-footer-nav">
 					<ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
 						<li class="usa-footer-primary-link">
-							<h4><a href="{{ site.baseurl }}/about-us/">JAWS-UGとは</a></h4>
+							<h4><a href="{{ site.baseurl }}{% link pages/about-us.md %}">JAWS-UGとは</a></h4>
 						</li>
 					</ul>
 					<ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
 						<li class="usa-footer-primary-link">
-							<h4><a href="{{ site.baseurl }}/calendar/">開催予定のイベント</a></h4>
+							<h4><a href="{{ site.baseurl }}{% link pages/calendar.md %}">開催予定のイベント</a></h4>
 						</li>
 					</ul>
 					<ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
 						<li class="usa-footer-primary-link">
 							<h4>参加者の方へ</h4>
 						</li>
-						<li><a href="{{ site.baseurl }}/for-participant/">参加する方法/ルールとマナー</a></li>
-						<li><a href="#">勉強会グループ一覧</a></li>
+						<li><a href="{{ site.baseurl }}{% link pages/for-participant.md %}">参加する方法/ルールとマナー</a></li>
+						<li><a href="{{ site.baseurl }}{% link pages/act.md %}">勉強会グループ一覧</a></li>
 					</ul>
 					<ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
 						<li class="usa-footer-primary-link">
@@ -44,7 +44,7 @@
 					<p class="copyright">&copy; {{ site.title }}. All rights reserved.</p>
 				</div>
 				<div class="usa-width-two-thirds usa-footer-contact-links">
-					<a href="/jaws-ug-slack/" class="usa-button"><i class="fa fa-slack fa-inverse" aria-hidden="true"></i> Join our Slack</a>
+					<a href="{{ site.baseurl }}{% link pages/jaws-ug-slack.md %}" class="usa-button"><i class="fa fa-slack fa-inverse" aria-hidden="true"></i> Join our Slack</a>
 					<a href="https://www.facebook.com/{{ site.facebook.username| escape }}" class="usa-button"><i class="fa fa-facebook-official fa-inverse" aria-hidden="true"></i> Facebook</a>
 					<a href="https://twitter.com/{{ site.twitter.username| escape }}" class="usa-button"><i class="fa fa-twitter fa-inverse" aria-hidden="true"></i> Twitter</a>
 					<a href="https://github.com/{{ site.github| escape }}" class="usa-button"><i class="fa fa-github fa-inverse" aria-hidden="true"></i> GitHub</a>
