@@ -3403,11 +3403,17 @@ input.usa-input-medium {
 .usa-hero-callout .usa-button {
   margin-top: 1rem; }
 
+.usa-footer-return-to-top {
+  text-align: right; }
+
 .copyright {
   font-size: 1.4rem; }
 
 .usa-footer-contact-links > * {
   margin-top: 0; }
+
+.usa-footer h4 a {
+  font-weight: bold; }
 
 .fc table {
   margin: 0; }

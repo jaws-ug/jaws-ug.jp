@@ -52,6 +52,9 @@ style.css
 		margin-top: 1rem;
 	}
 }
+.usa-footer-return-to-top {
+	text-align: right;
+}
 .copyright {
 	font-size: rem(14px);
 }
@@ -59,6 +62,10 @@ style.css
 	> * {
 		margin-top: 0;
 	}
+}
+
+.usa-footer h4 a {
+	font-weight: bold;
 }
 
 // calender
