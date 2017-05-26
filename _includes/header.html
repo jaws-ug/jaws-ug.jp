@@ -20,8 +20,9 @@
 	<link rel="icon" href="{{ site.favicon.size192x192 }}" sizes="192x192" />
 	<link rel="apple-touch-icon-precomposed" href="{{ site.favicon.apple-touch-icon }}" />
 	<meta name="msapplication-TileImage" content="{{ site.favicon.msapplication }}" />
-
-	{% if jekyll.environment == 'production' and site.google_analytics %}{% include google-analytics.html %}{% endif %}
+	{% if jekyll.environment == 'production' %}
+	{% if site.google_analytics or site.google_site_verification %}{% include google-analytics.html %}{% endif %}
+	{% endif %}
 </head>
 
 <body>
