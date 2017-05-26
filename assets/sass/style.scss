@@ -54,6 +54,14 @@ style.css
 }
 .usa-footer-return-to-top {
 	text-align: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	a {
+		color: $color-primary;
+		text-decoration: none;
+	}
 }
 .copyright {
 	font-size: rem(14px);

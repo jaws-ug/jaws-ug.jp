@@ -1,8 +1,8 @@
 	</main>
 
 	<footer id="colophon" class="usa-footer usa-footer-big" role="contentinfo">
-		<div class="usa-grid usa-footer-return-to-top">
-			<a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i> Return to top</a>
+		<div class="usa-grid usa-footer-return-to-top" id="page-top">
+			<a href="#_top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i> Page Top</a>
 		</div>
 
 		<div class="usa-footer-primary-section usa-section-gold">
@@ -54,13 +54,14 @@
 	</footer>
 
 	<script src="{{ site.baseurl }}/assets/uswds-1.0.0/js/uswds.min.js"></script>
-{% if page.layout == 'calendar' or page.layout == 'home' %}
 	<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/page-scroll.js"></script>
+{% if page.layout == 'calendar' or page.layout == 'home' %}
 	<script src="{{ site.baseurl }}/assets/js/moment.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/fullcalendar/fullcalendar.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/fullcalendar/locale/ja.js"></script>
 	<script src="{{ site.baseurl }}/assets/fullcalendar/gcal.min.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/function.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
 {% endif %}
 
 </body>

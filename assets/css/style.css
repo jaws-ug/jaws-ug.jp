@@ -3404,7 +3404,14 @@ input.usa-input-medium {
   margin-top: 1rem; }
 
 .usa-footer-return-to-top {
-  text-align: right; }
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .usa-footer-return-to-top a {
+    color: #0071bc;
+    text-decoration: none; }
 
 .copyright {
   font-size: 1.4rem; }
