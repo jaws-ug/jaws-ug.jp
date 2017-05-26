@@ -2,7 +2,7 @@
 style.css
 */
 @import 'uswds_variables';
-@import '../../node_modules/uswds/src/stylesheets/all';
+@import '../uswds-1.0.0/sass/all';
 
 // over write
 
@@ -53,6 +53,7 @@ style.css
 	}
 }
 .usa-footer-return-to-top {
+	display: none;
 	text-align: right;
 	position: fixed;
 	bottom: 0;
