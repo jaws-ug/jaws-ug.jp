@@ -19,8 +19,8 @@ email: jawsug@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   - AWS User Group - Japanは、Amazon Web Servicesの利用促進や情報交換のためのユーザーグループです。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jaws-ug.jp/"
-github:   jaws-ug
+url: "https://jaws-ug.jp"
+github: jaws-ug
 
 # og tag
 author: jawsug

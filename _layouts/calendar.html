@@ -1,11 +1,9 @@
 {% include header.html %}
-<div class="usa-grid usa-section usa-content usa-layout-docs">
-	<div class="usa-width-one-whole usa-layout-docs-main_content">
-		<header>
-			<h1>{{ page.title }}</h1>
-		</header>
-		{{ content }}
-		<div id="calendar"></div>
-	</div>
-</div>
+<article class="usa-width-one-whole usa-layout-docs-main_content">
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	{{ content }}
+	<div id="calendar"></div>
+</article>
 {% include footer.html %}

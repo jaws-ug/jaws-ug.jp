@@ -9,7 +9,6 @@
 
 	{% seo title=false %}
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/font-awesome-4.7.0/css/font-awesome.min.css" />
 {% if page.layout == 'calendar' or page.layout == 'home' %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/fullcalendar/fullcalendar.min.css" />
@@ -64,4 +63,8 @@
 		</div>
 	</header>
 	<div class="usa-overlay"></div>
+{% if page.layout == 'home' %}
 	<main id="main-content" role="main">
+{% else %}
+	<main id="main-content" class="usa-grid usa-section usa-content usa-layout-docs" role="main">
+{% endif %}
