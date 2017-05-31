@@ -1,5 +1,7 @@
 # jaws-ug.jp
 
+[![Build Status](https://travis-ci.org/jaws-ug/jaws-ug.jp.svg?branch=master)](https://travis-ci.org/jaws-ug/jaws-ug.jp)
+
 このリポジトリは jaws-ug.jp のサイトデータとなります。  
 サイトの生成には [Jekyll](http://jekyllrb.com/) を利用しています。
 
