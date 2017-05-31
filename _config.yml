@@ -38,8 +38,8 @@ defaults:
       image: /assets/images/ogp-default-image.png
 
 # Google services
-google_site_verification: #aaa
-google_analytics: #UA-99836269-1
+google_site_verification: ggJSPFscP1CIUrjY0cXU-siEhP3MiigFuFBf0iMcjb4
+google_analytics: UA-99836269-1
 
 # favicon
 favicon:
