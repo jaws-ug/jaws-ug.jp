@@ -25,6 +25,7 @@ group :jekyll_plugins do
    gem 'jekyll-seo-tag'
 end
 
+# Travis-CI
 gem 'html-proofer'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
