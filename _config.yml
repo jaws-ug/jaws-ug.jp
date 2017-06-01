@@ -64,3 +64,6 @@ exclude:
   - script
   - vendor
   - README.md
+  - jaws_ug_jp
+  - jaws_ug_jp.enc
+  - jaws_ug_jp.pub
