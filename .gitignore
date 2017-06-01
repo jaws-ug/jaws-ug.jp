@@ -4,3 +4,5 @@ node_modules/*
 .jekyll-metadata
 vendor/*
 .bundle/*
+jaws_ug_jp
+jaws_ug_jp.pub
