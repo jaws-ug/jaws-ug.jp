@@ -55,6 +55,8 @@ gems:
 #  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+include:
+  - _redirects
 exclude:
   - Gemfile
   - Gemfile.lock
