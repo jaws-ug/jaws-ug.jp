@@ -1,0 +1,139 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+// over write
+.usa-section-gold {
+	background-color: $color-gold;
+}
+.usa-section-light {
+	background-color: $color-gray-warm-light;
+}
+.usa-section-dark {
+	background-color: $color-base;
+}
+.usa-navbar {
+	height: 8.5rem;
+}
+.usa-logo {
+	box-sizing: content-box;
+	padding: 1rem 0;
+	line-height: 1;
+	a {
+		display: block;
+	}
+}
+.usa-menu-btn {
+	height: 8.5rem;
+	line-height: 8.5rem;
+}
+@media screen and (min-width: 951px) {
+	.usa-header-basic {
+		.usa-navbar {
+			width: 25%;
+		}
+		.usa-logo {
+			bottom: -1rem;
+		}
+	}
+}
+.usa-layout-docs {
+	clear: both;
+}
+
+.usa-hero {
+	background-image: url(../images/20170311-P3110004.jpg);
+}
+.usa-hero-callout {
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+	}
+	.usa-button {
+		margin-top: 1rem;
+	}
+}
+.usa-footer-return-to-top {
+	display: none;
+	text-align: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 9999;
+	background-color: rgba(255, 255, 255, 0.5);
+	a {
+		color: $color-primary;
+		text-decoration: none;
+	}
+}
+.copyright {
+	font-size: rem(14px);
+}
+.usa-footer-contact-links {
+	> * {
+		margin-top: 0;
+	}
+}
+
+.usa-footer h4 a {
+	font-weight: bold;
+}
+
+// calender
+.fc {
+	table {
+		margin: 0;
+	}
+}
+.fc-view > table {
+}
+.loading {
+	text-align: center;
+	color: $color-gray-light;
+}
+.fc-event, .fc-event-dot {
+	background-color: $color-gold;
+	border-color: $color-gold;
+	color: $color-base;
+	&:visited {
+		color: $color-base;
+	}
+	&:hover,
+	&:focus {
+		color: $color-secondary;
+	}
+}
+.fc-state-default {
+	background-image: none;
+	text-shadow: none;
+	box-shadow: none;
+}
+button.fc-button {
+	width: auto;
+}
+button.fc-state-default.fc-corner-left.fc-prev-button {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.fc-state-default.fc-corner-right.fc-next-button {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+// page
+.entry-title {
+	margin-top: 0;
+}
+
+// banner-area
+.banner-area {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+// branch-list
+.branch-list {
+	dt {
+		font-weight: bold;
+		margin-top: 1em;
+	}
+}
