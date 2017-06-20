@@ -14,20 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang:   ja
-title: JAWS-UG
+title: JAWS-UG（AWS Users Group – Japan）
 email: jawsug@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  - AWS User Group - Japanは、Amazon Web Servicesの利用促進や情報交換のためのユーザーグループです。
+  - JAWS-UG（AWS Users Group – Japan）は、AWS (Amazon Web Services) が提供するクラウドコンピューティングを利用する人々の集まり（コミュニティ）です。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jaws-ug.jp"
 github: jaws-ug
 
 # og tag
-author: jawsug
+author: jawsdays
 twitter:
   username: jawsdays
 facebook:
-  username: jawsdays
+  username: jawsug
 #   app_id: 1234
 #   publisher: 1234
 #   admins: 1234
