@@ -13,3 +13,7 @@
 /page/*       /            301
 /register/*   /            301
 /users/*      /            301
+/%E5%8B%89%E5%BC%B7%E4%BC%9A/*   /   301
+/about-aid-kyusyu/*   /    301
+/summit2012/*         /    301
+/jawsdays2013/*       /    301
