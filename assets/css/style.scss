@@ -1,11 +1,13 @@
+---
+---
+
 /*
 style.css
 */
 @import 'uswds_variables';
-@import '../uswds-1.0.0/sass/all';
+@import '../assets/uswds-1.0.0/sass/all';
 
 // over write
-
 .usa-section-gold {
 	background-color: $color-gold;
 }

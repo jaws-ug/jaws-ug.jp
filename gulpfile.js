@@ -1,22 +1,10 @@
 const gulp  = require('gulp');
-const sass  = require('gulp-sass');
 const child = require('child_process');
 const gutil = require('gulp-util');
-
-var cssFiles = 'assets/sass/**/*.?(s)css';
-
-// sass
-gulp.task('sass', () => {
-  gulp.src(cssFiles)
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('assets/css'));
-});
- 
 
 // jekyll
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('bundle', ['exec', 'jekyll', 'serve',
-    '--watch',
     '--incremental',
     '--drafts'
   ]);
@@ -31,10 +19,20 @@ gulp.task('jekyll', () => {
   jekyll.stderr.on('data', jekyllLogger);
 });
 
+// test
+gulp.task('test', () => {
+  const htmlproofer = child.spawn('bundle', ['exec', 'htmlproofer', './_site',
+    '--disable-external'
+  ]);
 
-// watch
-gulp.task('watch', () => {
-   gulp.watch(cssFiles, ['sass']);
- });
+  const htmlprooferLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => gutil.log('htmlproofer: ' + message));
+  };
 
- gulp.task('default', ['sass', 'jekyll', 'watch']);
+  htmlproofer.stdout.on('data', htmlprooferLogger);
+  htmlproofer.stderr.on('data', htmlprooferLogger);
+});
+
+gulp.task('default', ['jekyll']);
