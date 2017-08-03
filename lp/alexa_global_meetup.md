@@ -5,7 +5,7 @@ layout: page #テンプレートの指定。基本変更しない
 description: Landing page of Alexa and AI Global meetup JAWS-UG.jp
 ---
 
-<img src="/assets/images/lp/alexa-ai-global-meetup.png">
+![logo-alexa-global-meetup]({{ site.baseurl }}/assets/images/lp/alexa-ai-global-meetup.png)
 ( English summaries is below..)
 
 このページは、８月３０日 に 複数支部同時開催で行われる Alexa and AI Global meetup のページです。
@@ -54,7 +54,7 @@ Please register for participating from these link. You can select the link where
 We keep updating these information.
 
 Please register on these event page you want to participate.
-(We keep updating these information.) 
+(We keep updating these information.)
 
 ## Here is registering links
 [KOBE](https://jaws-ug-kobe.doorkeeper.jp/events/62902) <br/>
