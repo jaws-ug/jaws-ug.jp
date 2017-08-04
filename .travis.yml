@@ -24,7 +24,7 @@ branches:
 #  - /pages-(.*)/ # test every branch which starts with "pages-"
 
 after_success:
-  - '[ "$TRAVIS_BRANCH" == master ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./script/deploy.sh'
+  - 'if [ "$TRAVIS_BRANCH" == master ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then bash ./script/deploy.sh; fi'
 
 env:
   global:
