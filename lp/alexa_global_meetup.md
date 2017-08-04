@@ -18,7 +18,7 @@ description: Landing page of Alexa and AI Global meetup JAWS-UG.jp
 大阪 <br/>
 [東京(IoT, CLI専門支部 共催)](https://jawsug-cli.doorkeeper.jp/events/63079) <br/>
 HAMAMATSU <br/>
-NAGOYA <br/>
+[NAGOYA](https://jawsug-nagoya.doorkeeper.jp/events/63652) <br/>
 KRUG <br/>
 
 
@@ -61,7 +61,7 @@ Please register on these event page you want to participate.
 OSAKA <br/>
 [TOKYO(IoT, CLI dedicated branches)](https://jawsug-cli.doorkeeper.jp/events/63079) <br/>
 HAMAMATSU <br/>
-NAGOYA <br/>
+[NAGOYA](https://jawsug-nagoya.doorkeeper.jp/events/63652) <br/>
 KRUG <br/>
 
 ## Content（Now discussing）
