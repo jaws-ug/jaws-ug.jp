@@ -16,7 +16,7 @@ image: /assets/images/lp/alexa-ai-global-meetup.png
 
 ## 参加登録はこちら
 [神戸](https://jaws-ug-kobe.doorkeeper.jp/events/62902)  
-大阪  
+[大阪](https://jawsugosaka.doorkeeper.jp/events/63758)  
 [東京(IoT, CLI専門支部 共催)](https://jawsug-cli.doorkeeper.jp/events/63079)  
 HAMAMATSU  
 [NAGOYA](https://jawsug-nagoya.doorkeeper.jp/events/63652)  
