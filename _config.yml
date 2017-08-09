@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang:   ja
+lang:  ja
 title: JAWS-UG（AWS Users Group – Japan）
 email: jawsug@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -22,15 +22,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jaws-ug.jp"
 github: jaws-ug
 
-# og tag
-author: jawsdays
+# jekyll-seo-tag
+author: jaws-ug
 twitter:
   username: jawsdays
 facebook:
-  username: jawsug
-#   app_id: 1234
-#   publisher: 1234
 #   admins: 1234
+  publisher: https://www.facebook.com/jawsug/
+  app_id: 1400003920114272
 defaults:
   - scope:
       path: ""
