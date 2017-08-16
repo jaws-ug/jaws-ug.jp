@@ -28,7 +28,7 @@ twitter:
   username: jawsdays
 facebook:
 #   admins: 1234
-  publisher: https://www.facebook.com/jawsug/
+#   publisher: https://www.facebook.com/jawsug/
   app_id: 1400003920114272
 defaults:
   - scope:
