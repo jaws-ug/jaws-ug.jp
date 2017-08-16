@@ -18,7 +18,6 @@ image: /assets/images/lp/alexa-ai-global-meetup.png
 * [神戸](https://jaws-ug-kobe.doorkeeper.jp/events/62902)
 * [大阪 ](https://jawsugosaka.doorkeeper.jp/events/63758)
 * [東京(IoT, CLI専門支部 共催)](https://jawsug-cli.doorkeeper.jp/events/63079)
-* 浜松
 * [名古屋](https://jawsug-nagoya.doorkeeper.jp/events/63652)
 * KRUG
 
@@ -60,7 +59,6 @@ Please register on these event page you want to participate.
 * [KOBE](https://jaws-ug-kobe.doorkeeper.jp/events/62902)
 * [OSAKA](https://jawsugosaka.doorkeeper.jp/events/63758)
 * [TOKYO(IoT, CLI dedicated branches)](https://jawsug-cli.doorkeeper.jp/events/63079)
-* HAMAMATSU
 * [NAGOYA](https://jawsug-nagoya.doorkeeper.jp/events/63652)
 * KRUG
 
