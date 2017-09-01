@@ -14,6 +14,11 @@ image: /assets/images/lp/alexa-ai-global-meetup.png
 参加されるかたは、以下の参加支部のリンクよりお近くの会場に参加登録をお願いします。  
 内容は随時このページで更新します。
 
+## セッション資料はこちら（2017/09/01 更新)
+[How to synchronize Alexa and WordPress at YAKITORI Restaurant](https://speakerdeck.com/haruharuharuby/how-to-synchronize-wordpress-and-alexa-at-yakitori-restaurant)
+[How to use AWS Rekognition in WordPress](https://speakerdeck.com/mt8/jaws-ug-kobe-alexa-meetup-and-ai-global-meetup)
+[Designing skill for Echo Show](https://www.slideshare.net/junichikawa1/alexa-and-ai-global-meetup)
+
 ## 参加登録はこちら
 * [神戸](https://jaws-ug-kobe.doorkeeper.jp/events/62902)
 * [大阪 ](https://jawsugosaka.doorkeeper.jp/events/63758)
