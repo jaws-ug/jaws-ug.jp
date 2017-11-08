@@ -43,7 +43,12 @@
 				</button>
 				<ul class="usa-nav-primary usa-accordion">
 					<li><a class="usa-nav-link" href="{{ site.baseurl }}{% link pages/about-us.md %}"><span>JAWS-UGとは</span></a></li>
-					<li><a class="usa-nav-link" href="{{ site.baseurl }}{% link pages/calendar.md %}"><span>開催予定のイベント</span></a></li>
+					<li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3"><span>イベント</span></button>
+						<ul id="sidenav-3" class="usa-nav-submenu">
+							<li><a href="{{ site.baseurl }}{% link pages/calendar.md %}">開催予定のイベント</a></li>
+							<li><a href="{{ site.baseurl }}{% link pages/previous-events.md %}">過去のイベントサイト</a></li>
+						</ul>
+					</li>
 					<li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="side-nav-1"><span>参加者の方へ</span></button>
 						<ul id="side-nav-1" class="usa-nav-submenu">
 							<li><a href="{{ site.baseurl }}{% link pages/for-participant.md %}">参加する方法/ルールとマナー</a></li>
