@@ -137,3 +137,13 @@ button.fc-state-default.fc-corner-left.fc-prev-button {
 		margin-top: 1em;
 	}
 }
+
+// previous-events-area
+.previous-events-area {
+	.usa-width-one-half:nth-of-type(even) {
+		margin-right: 0;
+	}
+	.previous-event {
+		margin-bottom: 1em;
+	}
+}
