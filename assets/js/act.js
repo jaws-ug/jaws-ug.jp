@@ -15,15 +15,15 @@
 				areahtml += '<dd>' + "\n";
 				// url
 				if (obj.url.length > 0 ) {
-				areahtml += '<a href="' + obj.url + '" class="usa-button"><i class="fa fa-ticket fa-inverse" aria-hidden="true"></i> イベント申込</a>' + "\n";
+				areahtml += '<a href="' + obj.url + '" class="usa-button"><i class="fas fa-ticket-alt fa-inverse"></i> イベント申込</a>' + "\n";
 				}
 				// facebook
 				if (obj.facebook.length > 0 ) {
-				areahtml += '<a href="' + obj.facebook + '" class="usa-button"><i class="fa fa-facebook-official fa-inverse" aria-hidden="true"></i> Facebook</a>' + "\n";
+				areahtml += '<a href="' + obj.facebook + '" class="usa-button"><i class="fab fa-facebook fa-inverse"></i> Facebook</a>' + "\n";
 				}
 				// twitter
 				if (obj.twitter.length > 0 ) {
-				areahtml += '<a href="' + obj.twitter + '" class="usa-button"><i class="fa fa-twitter fa-inverse" aria-hidden="true"></i> Twitter</a>' + "\n";
+				areahtml += '<a href="' + obj.twitter + '" class="usa-button"><i class="fab fa-twitter fa-inverse"></i> Twitter</a>' + "\n";
 				}
 				areahtml += '</dd>' + "\n";
 
@@ -52,15 +52,15 @@
 				listhtml += '<dd>' + "\n";
 				// url
 				if (obj.url.length > 0 ) {
-				listhtml += '<a href="' + obj.url + '" class="usa-button"><i class="fa fa-ticket fa-inverse" aria-hidden="true"></i> イベント申込</a>' + "\n";
+				listhtml += '<a href="' + obj.url + '" class="usa-button"><i class="fas fa-ticket-alt fa-inverse"></i> イベント申込</a>' + "\n";
 				}
 				// facebook
 				if (obj.facebook.length > 0 ) {
-				listhtml += '<a href="' + obj.facebook + '" class="usa-button"><i class="fa fa-facebook-official fa-inverse" aria-hidden="true"></i> Facebook</a>' + "\n";
+				listhtml += '<a href="' + obj.facebook + '" class="usa-button"><i class="fab fa-facebook fa-inverse"></i> Facebook</a>' + "\n";
 				}
 				// twitter
 				if (obj.twitter.length > 0 ) {
-				listhtml += '<a href="' + obj.twitter + '" class="usa-button"><i class="fa fa-twitter fa-inverse" aria-hidden="true"></i> Twitter</a>' + "\n";
+				listhtml += '<a href="' + obj.twitter + '" class="usa-button"><i class="fab fa-twitter fa-inverse"></i> Twitter</a>' + "\n";
 				}
 				listhtml += '</dd>' + "\n";
 
