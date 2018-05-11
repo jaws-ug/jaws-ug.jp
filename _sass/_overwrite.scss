@@ -54,6 +54,9 @@ img {
 	> *:last-child {
 		margin-bottom: 0;
 	}
+	&.usa-section-gold {
+		background-color: rgba($color-gold, 0.8);
+	}
 }
 .usa-footer-return-to-top {
 	display: none;
