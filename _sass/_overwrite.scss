@@ -42,7 +42,7 @@ img {
 }
 
 .usa-hero {
-	background-image: url(../images/20170311-P3110004.jpg);
+	background-image: url(../images/40144482764_49af038c79_k.jpg);
 }
 .usa-hero-callout {
 	h1, h2, h3, h4, h5, h6 {
@@ -50,6 +50,12 @@ img {
 	}
 	.usa-button {
 		margin-top: 1rem;
+	}
+	> *:last-child {
+		margin-bottom: 0;
+	}
+	&.usa-section-gold {
+		background-color: rgba($color-gold, 0.8);
 	}
 }
 .usa-footer-return-to-top {
