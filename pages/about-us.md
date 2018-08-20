@@ -16,8 +16,8 @@ JAWS-UG（AWS Users Group – Japan）
 ## 発足
 発足：2010年2月
 
-## 代表
-事務局長：中山 順博 (JAWS-UG CLI専門支部) (2017.03～)
+## 代表事務局
+[JAWS-UG 関西](https://jawsugosaka.doorkeeper.jp/)
 
 ## 価値観（ステートメント）
 私たちはJAWS-UGとして活動するにあたり、以下の価値観を大切にしています。
