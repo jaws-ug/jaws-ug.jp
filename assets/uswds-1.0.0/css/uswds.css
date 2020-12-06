@@ -3641,14 +3641,6 @@ input.usa-input-medium {
   width: 100%;
 }
 
-.usa-nav .usa-notice {
-  background-color: #FF0000;
-  color: green;
-  font-size: 2px;
-  word-wrap: break-word;
-}
-
-
 @media screen and (min-width: 951px) {
   .usa-nav .usa-search {
     margin-left: 1.5rem;
