@@ -16,8 +16,8 @@ JAWS-UG（AWS Users Group – Japan）
 ## 発足
 発足：2010年2月
 
-## 代表事務局
-[JAWS-UG 関西](https://jawsugosaka.doorkeeper.jp/)
+## 事務局
+2020年事務局メンバー
 
 ## 価値観（ステートメント）
 私たちはJAWS-UGとして活動するにあたり、以下の価値観を大切にしています。
