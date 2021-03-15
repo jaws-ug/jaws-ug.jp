@@ -16,7 +16,7 @@ JAWS-UGではオープンのコミュニティの運営を議論するために�
 * 建設的な議論に努め、誹謗中傷は行わない
 * JAWS-UGの運営に関すること以外には使用しない（自社プロダクトの宣伝を流す等はNGです）
 
-[こちらからSlackへJoin](https://join.slack.com/t/make-jawsug/shared_invite/zt-lzg2r4ma-BbzKuUEs0IzTm4SLCNdZRQ "こちらからSlackへJoin")
+[こちらからSlackへJoin](https://join.slack.com/t/make-jawsug/shared_invite/zt-ngasmqxh-hRmOvQQIu1WTDCAG9Ps~xQ)
 
 
 ※ SlackのAPI変更に伴い、自動承認ができなくなりました。
