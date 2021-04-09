@@ -2,6 +2,7 @@ _site/*
 node_modules/*
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 vendor/*
 .bundle/*
 jaws_ug_jp
