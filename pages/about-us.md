@@ -45,3 +45,9 @@ AWSのユーザーグループは世界中にあり、国や地域を超えた�
 ロゴについてはこちらを参照ください
 * [https://github.com/jaws-ug/logo](https://github.com/jaws-ug/logo)
 * [https://github.com/jaws-ug/logo/tree/master/base](https://github.com/jaws-ug/logo/tree/master/base)
+
+## お問い合わせ窓口
+
+事務局、過去イベントに関するお問い合わせにつきましては下記フォームからお問い合わせください。
+
+* [お問い合わせフォーム](https://forms.gle/DHB29pQ9XuqEkPH16)
