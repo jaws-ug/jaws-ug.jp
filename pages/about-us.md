@@ -11,7 +11,7 @@ JAWS-UGとは、AWS (Amazon Web Services) が提供するクラウドコンピ�
 このコミュニティーは、非営利目的で活動しています。  
 
 ## 名称
-JAWS-UG（AWS Users Group – Japan）
+JAWS-UG（AWS User Group – Japan）
 
 ## 発足
 発足：2010年2月
