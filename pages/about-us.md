@@ -18,7 +18,7 @@ JAWS-UG（AWS User Group – Japan）
 
 ## 事務局
 2024年度事務局メンバー
-波田野 裕一（CLI専門支部、アーキテクチャ専門支部、朝会支部、X-Tech支部）、三浦 一樹（札幌支部、Media-JAWS）、古里 武士（岡山支部）、松田 康宏（金沢支部）、古屋 啓介（SRE支部）、川西 就（Storage-JAWS）、小寺 加奈子（クラウド女子会）、吉井 亮（Ops JAWS）、加藤 真透（金沢支部）
+波田野 裕一（CLI専門支部、アーキテクチャ専門支部、朝会支部）、三浦 一樹（札幌支部、Media-JAWS）、古里 武士（岡山支部）、松田 康宏（金沢支部）、古屋 啓介（SRE支部）、川西 就（Storage-JAWS）、小寺 加奈子（クラウド女子会）、吉井 亮（Ops JAWS）、加藤 真透（金沢支部）
 
 [過去の事務局メンバー]({{ site.baseurl }}{% link pages/previous-secretariat.md %})
 
