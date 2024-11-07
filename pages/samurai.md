@@ -16,7 +16,7 @@ AWS SamuraiとはJAWS-UGの活動状況から、JAWS-UGのコミュニティの�
 - 阿部 拓海
   - JAWS-UG おおいた/JAWS FESTA 2023 KYUSHU 実行委員長
 - 早川 愛さん
-  -  Fin-JAWS, JAWS DAYS 2024 実行委員長
+  -  Fin-JAWS/JAWS DAYS 2024 実行委員長
 
 ## 2022
 - 古里 武士
