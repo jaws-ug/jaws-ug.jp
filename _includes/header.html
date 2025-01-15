@@ -42,7 +42,12 @@
 				<img src="{{ site.baseurl }}/assets/uswds-1.0.0/img/close.svg" alt="close">
 				</button>
 				<ul class="usa-nav-primary usa-accordion">
-					<li><a class="usa-nav-link" href="{{ site.baseurl }}{% link pages/about-us.md %}"><span>JAWS-UGとは</span></a></li>
+					<li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-4"><span>JAWS-UGとは</span></button>
+						<ul id="sidenav-4" class="usa-nav-submenu">
+							<li><a href="{{ site.baseurl }}{% link pages/about-us.md %}">JAWS-UGとは</a></li></li>
+							<li><a href="{{ site.baseurl }}{% link pages/history.md %}">JAWS-UGの歴史</a></li></li>
+							<li><a href="{{ site.baseurl }}{% link pages/samurai.md %}">歴代AWS Samurai</a></li></li>
+						</ul>
 					<li><button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3"><span>イベント</span></button>
 						<ul id="sidenav-3" class="usa-nav-submenu">
 							<li><a href="{{ site.baseurl }}{% link pages/calendar.md %}">開催予定のイベント</a></li>

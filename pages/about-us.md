@@ -11,13 +11,16 @@ JAWS-UGとは、AWS (Amazon Web Services) が提供するクラウドコンピ�
 このコミュニティーは、非営利目的で活動しています。  
 
 ## 名称
-JAWS-UG（AWS Users Group – Japan）
+JAWS-UG（AWS User Group – Japan）
 
 ## 発足
 発足：2010年2月
 
 ## 事務局
-2020年事務局メンバー
+2024年度事務局メンバー
+波田野 裕一（CLI専門支部、アーキテクチャ専門支部、朝会支部）、三浦 一樹（札幌支部、Media-JAWS）、古里 武士（岡山支部）、松田 康宏（金沢支部）、古屋 啓介（SRE支部）、川西 就（Storage-JAWS）、小寺 加奈子（クラウド女子会）、吉井 亮（Ops JAWS）、加藤 真透（金沢支部）
+
+[過去の事務局メンバー]({{ site.baseurl }}{% link pages/previous-secretariat.md %})
 
 ## 価値観（ステートメント）
 私たちはJAWS-UGとして活動するにあたり、以下の価値観を大切にしています。
