@@ -8,6 +8,18 @@ description: 歴代AWS Samurai紹介ページ
 AWS SamuraiとはJAWS-UGの活動状況から、JAWS-UGのコミュニティの成長や支部運営、さらにはAWSクラウドの普及に大きく貢献または影響を与えた方に贈られる称号です。
 こちらのページでは歴代のAWS Samuraiの称号が贈られた方を紹介します（敬称略）。
 
+## 2024
+
+- 御田 稔
+  - JAWS-UG 東京支部 / NW-JAWS / JAWS-UG SRE支部
+- 深江 健士
+  - JAWS-UG AI/ML支部
+- ちば たかふみ
+  - JAWS-UG TOHOKU / いわて
+- 新居田 晃史
+  - JAWS-UG 横浜 / JAWS DAYS 2024 実行委員
+- JAWS-UG 配信部
+
 ## 2023
 - 小倉 大
   - JAWS-UG 朝会/札幌支部
