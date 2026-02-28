@@ -6,8 +6,9 @@ services:
       args:
         RUBY_VERSION: ${RUBY_VERSION:-3.0.4}
     working_dir: /workspace
+    user: dev
     volumes:
       - .:/workspace
     ports:
-      - "4000:4000"
-    command: bash -lc "bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 4000"
+      - "127.0.0.1:4000:4000"
+    command: sh -lc "/home/dev/.rbenv/shims/bundle install && /home/dev/.rbenv/shims/bundle exec jekyll serve --host 0.0.0.0 --port 4000"
