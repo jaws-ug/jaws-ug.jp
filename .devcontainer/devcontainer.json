@@ -6,6 +6,8 @@
       "RUBY_VERSION": "3.0.4"
     }
   },
+  "remoteUser": "dev",
+  "containerUser": "dev",
   "forwardPorts": [4000],
   "postCreateCommand": "bundle install"
 }
