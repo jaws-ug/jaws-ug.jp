@@ -1,0 +1,11 @@
+{
+  "name": "jaws-ug.jp (Jekyll)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "RUBY_VERSION": "3.0.4"
+    }
+  },
+  "forwardPorts": [4000],
+  "postCreateCommand": "bundle install"
+}

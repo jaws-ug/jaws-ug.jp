@@ -35,3 +35,37 @@ $ bundle exec jekyll serve
 $ bundle exec htmlproofer './_site' --disable-external
 ```
 `--disable-external` で外部リンクのチェックは除いてます。
+
+## Dev Container での開発
+`./.devcontainer/Dockerfile` で Ruby バージョンを変更できます。
+
+```Dockerfile
+ARG RUBY_VERSION=3.0.4
+```
+
+VS Code の **Dev Containers: Reopen in Container** を実行すると、上記 Dockerfile を使って環境が作成されます。
+
+コンテナ内でローカルサーバーを起動:
+```
+$ bundle exec jekyll serve --host 0.0.0.0 --port 4000
+```
+
+ブラウザから `http://127.0.0.1:4000/` で確認できます。
+
+## エディタ非依存での Docker 開発
+任意のエディタ + Docker だけで開発できます。
+
+起動:
+```
+$ docker compose up --build
+```
+
+停止:
+```
+$ docker compose down
+```
+
+Ruby バージョンを切り替えて起動:
+```
+$ RUBY_VERSION=3.2.9 docker compose up --build
+```
