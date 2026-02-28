@@ -1,5 +1,5 @@
-ARG RUBY_VERSION=3.0.4
 FROM debian:trixie-backports
+ARG RUBY_VERSION=3.0.4
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -32,8 +32,7 @@ RUN git clone https://github.com/rbenv/rbenv.git ${RBENV_ROOT} \
     && git clone https://github.com/rbenv/ruby-build.git ${RBENV_ROOT}/plugins/ruby-build \
     && rbenv install -s ${RUBY_VERSION} \
     && rbenv global ${RUBY_VERSION} \
-    && gem update --system \
-    && gem install bundler
+    && gem install bundler -v 2.2.33
 
 WORKDIR /workspace
 
