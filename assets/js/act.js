@@ -5,7 +5,7 @@
 		var areahtml = '';
 
 		$.ajax({
-			url : 'https://script.google.com/macros/s/AKfycbyWfedLeQTgaGQjOgjYYzrwpUkoUjmU51Incm0lJW2IzNpiaoQ/exec?sheetName=area',
+			url : 'https://script.google.com/a/macros/desk.jaws-ug.jp/s/AKfycbzR1h8aruDo1MFQTUkv76gXKw7ZSlWV6HThmXpaWBXRg1klr2tuZYV_vwminNM3zn7k/exec?sheetName=area',
 		})
 		.done(function( data ) {
 			areahtml += '<dl class="branch-list">' + "\n";
