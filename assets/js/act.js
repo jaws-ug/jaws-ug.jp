@@ -1,11 +1,12 @@
 (function($) {
 	
 	var $area = $('#area');
+	const baseUrl = 'https://script.google.com/a/macros/desk.jaws-ug.jp/s/AKfycbzR1h8aruDo1MFQTUkv76gXKw7ZSlWV6HThmXpaWBXRg1klr2tuZYV_vwminNM3zn7k/exec';
 	if ( $area.length > 0 ) {
 		var areahtml = '';
 
 		$.ajax({
-			url : 'https://script.google.com/a/macros/desk.jaws-ug.jp/s/AKfycbzR1h8aruDo1MFQTUkv76gXKw7ZSlWV6HThmXpaWBXRg1klr2tuZYV_vwminNM3zn7k/exec?sheetName=area',
+			url : baseUrl + '?sheetName=area',
 		})
 		.done(function( data ) {
 			areahtml += '<dl class="branch-list">' + "\n";
@@ -42,7 +43,7 @@
 		var listhtml = '';
 
 		$.ajax({
-			url : 'https://script.google.com/macros/s/AKfycbyWfedLeQTgaGQjOgjYYzrwpUkoUjmU51Incm0lJW2IzNpiaoQ/exec?sheetName=list',
+			url : baseUrl + '?sheetName=list',
 		})
 		.done(function( data ) {
 			listhtml += '<dl class="branch-list">' + "\n";
