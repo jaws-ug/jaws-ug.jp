@@ -15,11 +15,13 @@ AWS SamuraiとはJAWS-UGの活動状況から、JAWS-UGのコミュニティの�
 ## 2025
 
 - 笠原 宏
-  - 新潟支部
+  - JAWS-UG 新潟支部
 - 臼田 佳祐
   - Security-JAWS
 - 小寺 加奈子
-  - クラウド女子会
+  - JAWS-UG クラウド女子会
+- 加藤 真透
+  - JAWS-UG 金沢支部
 
 ## 2024
 
