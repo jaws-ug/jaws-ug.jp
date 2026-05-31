@@ -3,10 +3,25 @@ title: 歴代AWS Samurai
 permalink: /samurai/
 layout: page
 description: 歴代AWS Samurai紹介ページ
+image: /assets/images/past_samurai_members_2026.jpg
 ---
 
 AWS SamuraiとはJAWS-UGの活動状況から、JAWS-UGのコミュニティの成長や支部運営、さらにはAWSクラウドの普及に大きく貢献または影響を与えた方に贈られる称号です。
 こちらのページでは歴代のAWS Samuraiの称号が贈られた方を紹介します（敬称略）。
+
+![歴代サムライ(JAWS DAYS2026撮影)]({{ site.baseurl }}/assets/images/past_samurai_members_2026.jpg)
+歴代AWS Samurai(JAWS DAYS2026撮影)
+
+## 2025
+
+- 笠原 宏
+  - JAWS-UG 新潟支部
+- 臼田 佳祐
+  - Security-JAWS
+- 小寺 加奈子
+  - JAWS-UG クラウド女子会
+- 加藤 真透
+  - JAWS-UG 金沢支部
 
 ## 2024
 
@@ -17,7 +32,7 @@ AWS SamuraiとはJAWS-UGの活動状況から、JAWS-UGのコミュニティの�
 - ちば たかふみ
   - JAWS-UG TOHOKU / いわて
 - 新居田 晃史
-  - JAWS-UG 横浜 / JAWS DAYS 2024 実行委員
+  - JAWS-UG 横浜 / JAWS DAYS 2025 実行委員
 - JAWS-UG 配信部
 
 ## 2023
