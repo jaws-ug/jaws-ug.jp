@@ -2,7 +2,7 @@
 name: 内容の誤り
 about: サイト内の記載内容に誤りがある場合に報告する
 title: ""
-labels: bug
+labels: help wanted
 assignees: ""
 ---
 
