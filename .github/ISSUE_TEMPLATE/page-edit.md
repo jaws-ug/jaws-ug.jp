@@ -2,7 +2,7 @@
 name: ページの編集
 about: 既存ページの内容修正・更新を依頼する
 title: ""
-labels: enhancement
+labels: wontfix
 assignees: ""
 ---
 
