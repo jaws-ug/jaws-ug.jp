@@ -6,6 +6,8 @@ labels: help wanted
 assignees: ""
 ---
 
+cc: @jaws-ug/pr-mainainer @jaws-ug/pr-writer
+
 ## Who
 
 <!-- 所属と連絡先（任意）を入力してください。 -->
