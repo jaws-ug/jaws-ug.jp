@@ -31,5 +31,5 @@ JAWS-UG事務局運営チャンネルです、JAWS-UG事務局への相談事項
 
 ## 参加リンク
 
-* [参加リンク](https://join.slack.com/t/make-jawsug/shared_invite/zt-3ojw76eu8-KZb0OQVY7AAER8qbDMo_yQ)
-* SlackのAPI変更に伴い、自動承認ができなくなりました。現在手動承認としております、ご理解のほど何卒よろしくお願いします。
+* [参加リンク](https://docs.google.com/forms/d/e/1FAIpQLScRnj_sJzJ29Ra9f5veFqlvy5gX5kn4q2duYD_x0-wE4tuSdg/viewform?usp=header)
+* 上記の参加ルールを守っていただける方は、Google Formからお申し込みください。
