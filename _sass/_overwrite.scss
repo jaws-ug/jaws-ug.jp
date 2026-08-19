@@ -124,6 +124,15 @@ button.fc-state-default.fc-corner-left.fc-prev-button {
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 0;
 }
+.fc-day-grid-event .fc-content {
+	white-space: normal;
+	word-break: break-word;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	font-size: 1rem;
+}
 
 // page
 .entry-title {
