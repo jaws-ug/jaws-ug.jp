@@ -8,3 +8,5 @@ description: JAWS-UGではエリア別・目的別に勉強会グループがあ
 JAWS-UGではエリア別・目的別に勉強会グループがあります。  
 [開催予定のイベント]({{ site.baseurl }}{% link pages/calendar.md %})も合わせてご覧ください。
 
+エリア別の一覧のほか、[AWS User Group Japan Map](https://www.jawsug.dayjournal.dev/)で地図からもご覧いただけます。
+
