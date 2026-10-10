@@ -1,6 +1,6 @@
 # jaws-ug.jp
 
-[![Build Status](https://travis-ci.org/jaws-ug/jaws-ug.jp.svg?branch=master)](https://travis-ci.org/jaws-ug/jaws-ug.jp)
+[![CI](https://github.com/jaws-ug/jaws-ug.jp/actions/workflows/ci.yml/badge.svg)](https://github.com/jaws-ug/jaws-ug.jp/actions/workflows/ci.yml)
 
 このリポジトリは jaws-ug.jp のサイトデータとなります。  
 サイトの生成には [Jekyll](http://jekyllrb.com/) を利用しています。
